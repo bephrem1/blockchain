@@ -33,3 +33,6 @@ The chain is valid and no blocks are invalid </br>
 
 ### Again
 This is a really simple demo and really a pseudo-linked-list enforced with hashes so it is cool to see the concept in action on a local system. In reality once the invalid block is found then the client's block will have to be audited and corrected by looking at other peer's blocks, etc. but that is beyond the scope of this example
+
+### Credits
+Credit to [this post](https://blockgeeks.com/guides/blockchain-coding/) for a lot of the code and a starting point. Actually putting this into action on a Node server given the JS implementation was cool to see.
