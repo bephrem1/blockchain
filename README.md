@@ -7,12 +7,12 @@ This is the basis of trust in a blockchain structure and is what gives it the ab
 
 This example is simple blockchain whose logic could be distributed but ledger reconciliation has not been implemented.
 
-### To Try This Application
-1.) clone the repo
-2.) cd to the directory the project is in
-3.) run 'npm install' and 'npm update' to make sure all node_modules are installed and updated
-4.) run 'npm start' or 'nodemon' (if you have nodemon installed globally)
-5.) go to http://localhost:3000/ ... this will create a sample blockchain and present it in JSON
+### To Try This Application </br>
+1.) clone the repo </br>
+2.) cd to the directory the project is in </br>
+3.) run 'npm install' and 'npm update' to make sure all node_modules are installed and updated </br>
+4.) run 'npm start' or 'nodemon' (if you have nodemon installed globally) </br>
+5.) go to http://localhost:3000/ ... this will create a sample blockchain and present it in JSON </br>
 6.) go to http://localhost:3000/breakchain ... this will remove the first link in the blockchain. You will get a response that looks like this:
 ```
 {
@@ -22,13 +22,13 @@ This example is simple blockchain whose logic could be distributed but ledger re
   ]
 }
 ```
-If you remove the code in break chain and just output the validateChain() method's result you will see:
+If you remove the code in break chain and just output the validateChain() method's result you will see: </br>
 ```
 {
   "result": true
 }
 ```
-The chain is valid and no blocks are invalid
+The chain is valid and no blocks are invalid </br>
 7.) And that's pretty much the demo
 
 ### Again
