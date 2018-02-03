@@ -29,7 +29,23 @@ If you remove the code in break chain and just output the validateChain() method
 }
 ```
 The chain is valid and no blocks are invalid </br>
-7.) And that's pretty much the demo
+7.) go to http://localhost:3000/ to restore the chain then go to go to http://localhost:3000/tamper to tamper with the data in block 2 of the blockchain. You will get a response that looks like this:
+```
+{
+  "result": false,
+  "invalidBlocks": [
+    2
+  ]
+}
+```
+If you remove the line of code that is tampering with the data in block 2, visit http://localhost:3000/ to restore the chain, and then http://localhost:3000/tamper you will see this</br>
+```
+{
+  "result": true
+}
+```
+The chain is valid and no blocks are invalid since we don't break the chains integrity. </br>
+8.) And that's pretty much the demo
 
 ### Again
 This is a really simple demo and really a pseudo-linked-list enforced with hashes so it is cool to see the concept in action on a local system. In reality once the invalid block is found then the client's block will have to be audited and corrected by looking at other peer's blocks, etc. but that is beyond the scope of this example
